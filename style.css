@@ -1,0 +1,28 @@
+table {
+   margin: auto; 
+   text-align: left;
+}
+
+tbody tr:first-child {
+   background-color: rgb(211, 210, 210);
+}
+
+tbody tr:nth-child(2){
+   color: gray;
+}
+
+tbody tr:nth-child(3){
+   color: rgb(228, 47, 47);
+}
+
+tbody tr th:nth-child(1){
+   background-color: rgb(211, 210, 210);
+}
+
+tfoot tr th{
+   background-color: rgb(250, 185, 185);
+}
+
+tfoot tr td{
+   background-color: rgb(209, 199, 253);
+}
